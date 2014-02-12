@@ -71,6 +71,11 @@ public:
 	virtual ~ProtocolAds();
 
     typedef enum {
+        kBannerAd = 0,
+        kFullScreenAd,
+    } AdsType;
+
+    typedef enum {
         kPosCenter = 0,
         kPosTop,
         kPosTopLeft,
